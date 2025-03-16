@@ -1,0 +1,113 @@
+/* Estilos generales */
+/* Efecto de animación al pasar el cursor sobre los enlaces de navegación */
+/* Estilos para el dinosaurio */
+.dinosaurio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none; /* El dinosaurio estará oculto por defecto */
+}
+
+/* Estilos para el título */
+.titulo {
+    text-align: center;
+    cursor: pointer; /* Cambia el cursor al pasar sobre el título */
+}
+
+nav a {
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #f2f2f2; /* Cambia el color de fondo al pasar el cursor */
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffc45; /* Fondo amarillo claro */
+}
+
+header {
+    background-color: #f8690a; /* Color de fondo del encabezado */
+    padding: 50px;
+    text-align: center;
+}
+
+nav {
+    background-color: #c78b47; /* Color de fondo de la barra de navegación */
+    overflow: hidden;
+    text-align: center; /* Para centrar los elementos de la barra de navegación */
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    box-sizing: border-box; /* Incluye el padding y el border en el ancho total */
+    padding: 10px; /* Añade un poco de espacio entre los enlaces y los bordes */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+nav a:hover {
+    background-color: #ef0e0e; /* Cambia el color de fondo del enlace cuando se pasa el cursor sobre él */
+}
+
+section {
+    padding: 20px;
+    text-align: center; /* Para centrar el contenido de las secciones */
+}
+
+footer {
+    background-color: #eccc71; /* Color de fondo del pie de página */
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Estilos específicos para la página */
+
+h1 {
+    color: white; /* Color blanco para el título */
+}
+
+.logo-izquierda {
+    width: 250px; /* Ajusta el tamaño de la imagen izquierda según sea necesario */
+    height: auto; /* Para mantener la proporción de la imagen */
+    float: right; /* Para alinear la imagen a la izquierda */
+    margin-right: 10px; /* Ajusta el espacio entre la imagen izquierda y el título */
+}
+
+.user-info {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.user-info input {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.user-info button {
+    display: block;
+    margin-top: 5px;
+}
+
+/* Estilo para las imágenes dentro del contenedor pizza */
+.pizza {
+    display: block; /* Asegura que las imágenes se apilen verticalmente */
+    text-align: center; /* Centra las imágenes horizontalmente */
+}
+
+.pizza img {
+    max-width: 400px; /* Ajusta el ancho máximo de las imágenes según tu preferencia */
+    display: block; /* Asegura que las imágenes no afecten al texto alrededor */
+    margin: 10px auto; /* Centra las imágenes dentro de sus contenedores y añade un poco de espacio en la parte superior e inferior */
+}
